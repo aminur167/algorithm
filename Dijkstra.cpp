@@ -67,8 +67,6 @@ typedef set<int>::iterator sit;
 
 int dx[] = {0, 0, +1, -1};
 int dy[] = {+1, -1, 0, 0};
-// int dx[] = {+1, 0, -1, 0, +1, +1, -1, -1};
-// int dy[] = {0, +1, 0, -1, +1, -1, +1, -1};
 
 template <typename F, typename S>
 ostream &operator<<(ostream &os, const pair<F, S> &p)
@@ -163,10 +161,6 @@ bool cmp(pair<int, int> a, pair<int, int> b)
     }
     return a.first < b.first;
 }
-
-/*stable_sort(vp.begin(), vp.end(), [](const pair<int, int> &a, const pair<int, int> &b) {
-        return a.second < b.second;
-});*/
 
 const int M = 1e5 + 7;
 vpl adj[M];
