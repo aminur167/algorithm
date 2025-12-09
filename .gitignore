@@ -1,0 +1,7 @@
+﻿# Compiled output
+*.exe
+*.o
+*.out
+
+# IDE
+.vscode/
